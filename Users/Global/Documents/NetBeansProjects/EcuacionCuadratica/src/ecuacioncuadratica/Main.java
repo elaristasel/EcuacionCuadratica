@@ -13,7 +13,7 @@ import java.util.Locale;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        scanner.useLocale(Locale.US); // Asegura que el scanner lea los decimales con punto
+        scanner.useLocale(Locale.US); 
 
         try {
             System.out.print("Ingrese a, b, c: ");
@@ -21,10 +21,10 @@ public class Main {
             double b = scanner.nextDouble();
             double c = scanner.nextDouble();
 
-            // Crear un objeto de la clase EcuacionCuadratica
+            
             Ecuacion_Cuadratica ecuacion = new Ecuacion_Cuadratica(a, b, c);
 
-            // Llamar al método resolverEcuacion
+           
             ecuacion.resolverEcuacion();
         } catch (Exception e) {
             System.out.println("Error: Verifica que los números estén bien escritos.");

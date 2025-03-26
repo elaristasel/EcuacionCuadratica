@@ -6,6 +6,8 @@
  * 
  */
 package EcuacionCuadratica;
+import java.util.Scanner;
+import java.util.Locale;
 
 public class Ecuacion_Cuadratica {
    
